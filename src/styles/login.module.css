@@ -1,0 +1,30 @@
+.container{
+    border: 1px solid silver;
+    background-color: #00b4d8;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 10px;
+
+}
+.container h1,p{
+    color: aliceblue;
+}
+
+.container button{
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.container img{
+    width: 20px;
+    float: right;
+}
