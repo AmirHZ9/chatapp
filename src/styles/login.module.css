@@ -16,7 +16,8 @@
 
 .container button{
     width: 150px;
-    height: 25px;
+    height: 35px;
+    
     border-radius: 5px;
     outline: none;
     border: none;
@@ -27,4 +28,5 @@
 .container img{
     width: 20px;
     float: right;
+ 
 }
