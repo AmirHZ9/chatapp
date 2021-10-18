@@ -3,10 +3,10 @@ import styles from '../styles/Nav.module.css'
 function Nav() {
     return (
         <div className={styles.container}>
-            <div>
+            <div className={styles.chat}>
                 ChatApp
             </div>
-            <div>
+            <div className={styles.logout}>
                 Logout
             </div>
         </div>

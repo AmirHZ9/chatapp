@@ -1,0 +1,31 @@
+.container {
+  height: 50px;
+  background-color: #00b4d8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat {
+  color: aliceblue;
+  margin-left: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+.logout {
+  margin-right: 20px;
+  color: aliceblue;
+  margin-left: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+.logout:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
