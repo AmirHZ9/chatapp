@@ -1,5 +1,5 @@
 import React from "react";
-import firebase from 'firebase/compat/app'
+import firebase from 'firebase/app'
 import { auth } from "../Firebase";
 import google from "../assets/google.svg";
 import styles from "../styles/login.module.css";
@@ -15,7 +15,7 @@ function Login() {
         <h1>ChatApp</h1>
         <button>
           sign in with
-          <img src={google} />
+          <img src={google} alt="pic" />
         </button>
       </div>
     </div>
